@@ -1,3 +1,65 @@
+/* body colors are - #d7b9aa
+   Link colors are - #ba9785 
+*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000;
+}
+
+/* =================
+     HEADER
+================= */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    letter-spacing: .05em;
+    background-color: #d7b9aa;
+    padding: 25px;
+}
+
+.name, h1 {
+    font-family: 'Cedarville Cursive', cursive;
+    font-size: 80px;
+    color: #ffffff;
+}
+
+/* DO NOT TOUCH ABOVE THIS LINE! */
+
+
+header {
+    
+}
+
+h1, 
+.top-nav {
+    text-align: center;
+}
+h1 {
+    color: aqua;
+}
+
+.top-nav li {
+    padding: 10px 0;
+    margin: 5px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    font-size: 30px;
+    color: purple;
+}
 
 
 
@@ -8,6 +70,15 @@
 
 
 
+
+
+
+
+
+
+/* =================
+ MEDIA QUERIES
+================= */
 @media (min-width: 768px) {
     
 }
