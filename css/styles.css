@@ -78,6 +78,8 @@ nav {
     margin-bottom: 40px;
     gap: 30px;
     text-align: center;
+    background-color: #fcfaec;
+    padding-top: 30px;
 }
 
 .profile-picture {
