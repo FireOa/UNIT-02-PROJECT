@@ -19,7 +19,7 @@ CHECK OFF LIST......
 
 1. link areas of page to NAV {}
 2. add a new background color for nav {}
-3. change color of one piece of text {}
+3. change color of one piece of text {DONE}
 4. add additional google font {DONE}
 5. syle links (borders/hover states) {}
 
@@ -27,6 +27,8 @@ CHECK OFF LIST......
 ==========================================================================-->
 <body>
 
+
+<!--=========================   HEADER   ===========================-->
     <header class="main-header">
         <nav>
             <h1 class="name">Corey</h1>
@@ -41,62 +43,79 @@ CHECK OFF LIST......
 
 
 
+<!--=========================   TOP SECTION   ===========================-->
 
 
-
-    
-    <section>
-        <img src="images/responsive-layout-profile.png" alt="Profile Picture"> 
-        <p>Hi I'm a front-end developer who loves responsive design and css. I recently
+    <div class="top-section">
+   
+        <img class="profile-picture" src="images/responsive-layout-profile.png" alt="Profile Picture"> 
+        <p class="first-paragraph">Hi I'm a front-end developer who loves responsive design and css. I recently
             finished a degree in front-end web development at treehouse and am excited to 
             put all my skills to use!
         </p>  
-    </section>
+    </div>  
 
-    <div>
+
+<!--=========================   PROFILE SECTION   ===========================-->
+
+
+    
         <div class="container">
+ 
+            <p class="port">Portfolio</p>
 
-            <div>Portfolio</div>
             <div class="box-1 col">
                 <img src="images/portfolio-1.png" alt="Portfolio Image">
                 <h2>Marketing Page</h2>
-                <p>This project shows the front page of a marketing website meant for a specific business I am interested in!</p>
+                <p class="profile-p">This project shows the front page of a marketing website meant for a specific business I am interested in!</p>
             </div>
     
     
             <div class="box-2 col">
                 <img src="images/portfolio-2.png" alt="Search Page">
-                <p>Search Page</p>
-                <h2>This project searches through a specitic database to find information that the user is trine to look uo.</h2>
+                <h2>Search Page</h2>
+                <p class="profile-p">This project searches through a specitic database to find information that the user is trine to look uo.</p>
             </div>
     
             <div class="box-3 col">
                 <img src="images/portfolio-3.png" alt="Travel app">
-                <p>Travel App</p>
-                <h2>This project compares travel times based on different transportation methods and tells you the best one.</h2>
+                <h2>Travel App</h2>
+                <p class="profile-p">This project compares travel times based on different transportation methods and tells you the best one.</p>
             </div>
     
             <div class="box-4 col">
                 <img src="images/portfolio-4.png" alt="Map of Favorite spot">
-                <p>Map of Favorite Spots</p>
-                <h2>This project uses mapping apis to plot points of my favorite spots in the city for a do-it-yourself walking tour</h2>
+                <h2>Map of Favorite Spots</h2>
+                <p class="profile-p">This project uses mapping apis to plot points of my favorite spots in the city for a do-it-yourself walking tour</p>
             </div>
     
             <div class="box-5 col">
                 <img src="images/portfolio-5.png" alt="Photo gallery">
-                <p>Photo Gallery</p>
-                <h2>This project shows pictures from a recent trip to the viewer and allows them to easily navigate through photos</h2>
+                <h2>Photo Gallery</h2>
+                <p class="profile-p">This project shows pictures from a recent trip to the viewer and allows them to easily navigate through photos</p>
             </div>
     
             <div class="box-6 col">
                 <img src="images/portfolio-6.png" alt="Calculator">
-                <p>Calculator</p>
-                <h2>Someone can enter in the numbers they want and press the big blue button and get the result</h2>
+                <h2>Calculator</h2>
+                <p class="profile-p">Someone can enter in the numbers they want and press the big blue button and get the result</p>
             </div>
          </div>
-    </div>
+    
 
-    <footer>
+
+         <div class="contact">
+            <h2>Contact Me!</h2>
+            <p>I would love to hear from you! <br> Call or Email Me!</p>
+            <a href="tel:951-262-3062">951-262-3062</a>
+            <a href="mailto:">NotARealEmail@gmail.com</a>
+         </div>
+
+         <hr>
+
+<!--=========================   FOOTER   ===========================-->
+
+    <footer class="footer">
         <h2>Corey</h2>
         <ul class="footer-nav">
             <li class="top"><a href="#">Back to Top</a></li>
